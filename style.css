@@ -102,7 +102,28 @@ fieldset legend {
     flex-direction: column;
 }
 
-.input-wrapper {
+input{
+    background: #FAFAFC;
+
+    box-sizing: border-box;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+
+    height: 56px;
+}
+
+.col-2{
     display: flex;
-    flex-direction: row;
+    gap: 22px;
+
+}
+
+.col-2 .input-wrapper input{
+    width: 300px;
+} 
+
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
