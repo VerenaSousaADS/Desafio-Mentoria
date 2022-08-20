@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body::before{
+body::before {
     content: "";
     width: 100%;
     height: 436px;
@@ -17,38 +17,92 @@ body::before{
     background: #535971;
 }
 
-.page{
-    width: 736px;
+body {
+    background: #e5e5e5;
+}
+
+.page {
+    width: 750px;
     margin: auto;
 }
 
-header{
-    width: 345px;
-    margin-top: 74px;
+header {
+    width: 1440px;
+    margin-top: -2px;
+
+    gap: 18px;
 }
 
-h1, legend{
-    font-family: 'Staatliches', cursive;
+h1 {
+    font-family: "Staatliches", cursive;
 }
 
-h1{
-    font-family: 'Staatliches';
-  
+h1 {
+    font-family: "Staatliches";
+
     font-weight: 400;
     font-size: 48px;
-    line-height: 60px; 
+    line-height: 60px;
+
+    margin-top: 140px;
 }
 
-h1, p{
+h1,
+p {
     color: white;
 }
 
-p, label{
+p {
+    margin-bottom: 58px;
+}
+
+p,
+label {
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
+}
 
+form {
+    position: absolute;
+
+    background: #ffffff;
+    border-radius: 20px 20px 0px 0px;
+
+    padding: 64px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: none;
+}
+
+fieldset legend {
+    font-family: "Staatliches";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    
+    width: 100%;
+    margin-bottom: 36px;
+
+    color: #535971;
+
+    border-bottom: 1px solid #E6E6F0;
+}
+
+.fieldset-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: row;
 }
