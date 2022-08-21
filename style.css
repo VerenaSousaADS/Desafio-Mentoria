@@ -79,7 +79,7 @@ form {
 /* optei por deixar o margin-top das tags fieldset padrão apesar de saber que a segunda tag fieldset possui um margin-top de 2px de diferença */
 
 fieldset {
-    margin-top: 32px;
+    
     border: none;
 }
 
@@ -102,6 +102,10 @@ fieldset legend {
     display: flex;
     flex-direction: column;
 }
+
+/* .fieldset-wrapper>legend:nth-child(2){
+    margin-top: 32px;
+} */
 
 
 input{
