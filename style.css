@@ -76,7 +76,7 @@ form {
     flex-direction: column;
 }
 
-/* optei por deixar o margin-top das tags fieldset padrão apesar de saber que a segunda tag fieldset possui um margin-top de 2px de diferença */
+
 
 fieldset {
     
@@ -103,7 +103,14 @@ fieldset legend {
     flex-direction: column;
 }
 
-/* .fieldset-wrapper>legend:nth-child(2){
+
+/* optei por deixar o margin-top das tags fieldset padrão apesar de saber que a segunda tag fieldset possui um margin-top de 2px de diferença */
+
+.fieldset-wrapper-diferent{
+    margin-top: 32px;
+}
+
+/* fieldset>legend:nth-child(1){
     margin-top: 32px;
 } */
 
@@ -150,3 +157,12 @@ input{
 
 }
 
+.diferent-label{
+    font-family: 'Staatliches';
+  
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    
+    color: #535971;
+}
