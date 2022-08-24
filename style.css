@@ -157,7 +157,7 @@ input{
 
 }
 
-.diferent-label{
+h2{
     font-family: 'Staatliches';
   
     font-weight: 400;
@@ -165,4 +165,13 @@ input{
     line-height: 34px;
     
     color: #535971;
+}
+
+.col-3{
+    display: flex;
+    gap: 32px;
+}
+
+.col-3>div:nth-child(1) {
+    width: 100%;
 }
