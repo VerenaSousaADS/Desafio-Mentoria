@@ -123,6 +123,12 @@ input{
     border-radius: 8px;
 
     height: 56px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #C1BCCC;
 }
 
 .col-2{
@@ -154,6 +160,12 @@ input{
 
 .input-wrapper label span{
     color: #C1BCCC;
+    transition: 4ms;
+}
+
+.input-wrapper label span:hover{
+    color: #9995a0de;
+    
 
 }
 
