@@ -277,3 +277,12 @@ footer .button{
     color: #FFFFFF;
 }
 
+
+footer .button:hover{
+    filter: brightness(1.5);
+}
+
+input:invalid{
+    border: 1px solid red;
+}
+
