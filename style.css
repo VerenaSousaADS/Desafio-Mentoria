@@ -106,13 +106,18 @@ fieldset legend {
 
 /* optei por deixar o margin-top das tags fieldset padrão apesar de saber que a segunda tag fieldset possui um margin-top de 2px de diferença */
 
-.fieldset-wrapper-diferent{
+/* .fieldset-wrapper-diferent{
+    margin-top: 32px;
+} */
+
+form>fieldset:nth-child(2){
+    margin-top: 30px;
+}
+
+form>fieldset:nth-child(3){
     margin-top: 32px;
 }
 
-/* fieldset>legend:nth-child(1){
-    margin-top: 32px;
-} */
 
 
 input{
@@ -182,9 +187,15 @@ h2{
 
 .col-3{
     display: flex;
-    gap: 32px;
 }
+
+/* a classe .col-3 é a pai */
 
 .col-3>div:nth-child(1) {
     width: 100%;
+    margin-right: 32px;
+}
+
+.col-3>div:nth-child(2){
+    margin-right: 10px;
 }
