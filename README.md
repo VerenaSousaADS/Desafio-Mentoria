@@ -10,5 +10,5 @@
 <ul>
 <li>Como usar a pseudo class before</li>
 <li>Como usar e pra que serve a propriedade z-index</li>
-<li>Finalmente entendi o conceito da pseudo class nth-child e dessa forma pude deixa meu código mais limpo</li>
+<li>Finalmente entendi o conceito da pseudo class nth-child e dessa forma pude deixar meu código mais limpo</li>
 </ul>
