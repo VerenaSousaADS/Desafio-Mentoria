@@ -91,7 +91,7 @@ fieldset legend {
     line-height: 34px;
     
     width: 100%;
-    margin-bottom: 36px;
+    /* margin-bottom: 36px; */
 
     color: #535971;
 
@@ -144,6 +144,7 @@ input{
 .col-2{
     display: flex;
     gap: 22px;
+    margin-top: 36px;
 
 }
 
@@ -179,6 +180,10 @@ input{
 
 }
 
+.mentor{
+    margin-top: 32px;
+}
+
 h2{
     font-family: 'Staatliches';
   
@@ -193,6 +198,12 @@ h2{
     display: flex;
 }
 
+/* Deixa o conteúdo invísivel como no layout, mas não tem como fazer inserções 
+
+ .col-3 .input-wrapper input{
+    content-visibility: hidden;
+} */
+
 /* a classe .col-3 é a pai */
 
 .col-3>div:nth-child(1) {
@@ -204,6 +215,65 @@ h2{
     margin-right: 10px;
 }
 
-.fieldset-wrapper h2{
+/* .fieldset-wrapper h2{
     margin-top: 8px;
+} */
+
+
+
+fieldset>.fieldset-wrapper>h2:nth-child(2){
+    background-color: red;
+    margin-top: 32px;
 }
+
+fieldset>.fieldset-wrapper>h2:nth-child(1){
+    background-color: red;
+    margin-top: 16px;
+}
+
+
+footer{
+    position: absolute;
+    width: 750px;
+    height: 160px;
+   
+    top: 1404px; 
+    
+    background: #535971;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    flex-direction: column;
+   
+    background: #535971;
+    border-radius: 0px 0px 20px 20px; 
+
+    
+}
+
+footer .button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+    gap: 10px;
+    height: 56px;
+    width: 608px;
+
+    margin: 53px 71px;
+    border: none;
+
+    background: #FF5374;
+    border-radius: 20px;
+
+
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+
+    color: #FFFFFF;
+}
+
