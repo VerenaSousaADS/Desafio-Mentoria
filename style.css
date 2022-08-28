@@ -222,12 +222,12 @@ h2{
 
 
 fieldset>.fieldset-wrapper>h2:nth-child(2){
-    background-color: red;
+
     margin-top: 32px;
 }
 
 fieldset>.fieldset-wrapper>h2:nth-child(1){
-    background-color: red;
+   
     margin-top: 16px;
 }
 
