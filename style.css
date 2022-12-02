@@ -27,7 +27,7 @@ body {
 }
 
 header {
-    width: 1440px;
+   /* width: 1440px;*/
     margin-top: -2px;
 
     gap: 18px;
